@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Blogify – Your Voice, Your Browser</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body class="blog">
+  <div class="container">
+        <h1 class="typing-effect">📝 Blogify – Your Voice, Your Browser</h1>
+
+    <form id="postForm">
+      <input type="text" id="title" placeholder="Enter your post title..." required />
+      <textarea id="content" placeholder="Write your amazing post here..." required></textarea>
+      <button type="submit" id="submitBtn" class="btn">Publish</button>
+    </form>
+
+    <hr />
+    <div id="postsContainer"></div>
+    <a href="index.html" class="btn secondary">Back to Welcome</a>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
